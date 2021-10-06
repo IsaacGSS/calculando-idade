@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculando Idade</title>
+</head>
+<body onload="info()">
+
+    <header id="header">
+        <h1 id="title">Calculando Idade</h1>
+    </header>
+
+    <section id="section">
+
+        <div id="div_one">
+            <p>ano de nacimento:
+                <input type="number" name="txtanos" id="txtanos"> 
+            </p>
+            <p>
+                sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Femenino</label>
+            </p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </div>
+
+        <div id="div_two">
+            <p id="res">
+                prencha os dados acima para ver o resultado!
+            </p> 
+
+            <img id="img" src="" alt="">
+        </div>
+
+    </section>
+
+    <footer>
+        <p id="footer">
+            <a id="tagName_a" href="https://github.com/IsaacGSS" target="_blank">©Isaac S.Silva</a>
+        </p>
+    </footer>
+
+
+    <script src="javascrip.js"></script>
+</body>
+</html>
